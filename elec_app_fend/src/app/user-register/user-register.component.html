@@ -1,0 +1,57 @@
+<form [formGroup]="userRegisterForm" class="container p-3 border border-light" (ngSubmit)="registerSubmitted()">
+    <div class="row g-0">
+        <div class="col text-center p-2 mb-3">
+            <span class="fs-3">Register</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email" name="email" formControlName="email" [(ngModel)] = "addUserReq.email">
+        </div>
+        <div class="form-text text-danger" *ngIf="Email.errors?.['required'] && Email.touched">
+            Required
+          </div> 
+          <div class="form-text text-danger" *ngIf="Email.errors?.['email'] && (Email.touched || Email.dirty)">
+            Email id should contain @ and. symbols.
+          </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="pwd" class="form-label">Password</label>
+            <input type="password" class="form-control" id="pwd" name="password" formControlName="pwd"  [(ngModel)] = "addUserReq.password">
+        </div>
+        <div class="form-text text-danger" *ngIf="Password.errors?.['required'] && Password.touched">
+            Required
+          </div> 
+          <div class="form-text text-danger" *ngIf="Password.errors?.['maxlength'] && (Password.touched || Password.dirty)">
+            Password should contain maximum 15 digits or character
+          </div>
+          <div class="form-text text-danger" *ngIf="Password.errors?.['minlength'] && (Password.touched || Password.dirty)">
+            Password should contain minimum 6 digits or character
+          </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="m-1">Role</div>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" value="user" id="user" formControlName="role" [(ngModel)] = "addUserReq.role">
+                <label class="form-check-label" for="user">User</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" value="executive" id="executive" formControlName="role" [(ngModel)] = "addUserReq.role">
+                <label class="form-check-label" for="executive">Executive</label>
+            </div>
+            <div class="form-text text-danger" *ngIf="Role.errors?.['required'] && Role.touched">
+                Required
+              </div> 
+        </div>
+    </div>
+    <div class="row p-3">
+        <div class="col-6 offset-3">
+            <div class="d-grid">
+                <button type="submit" [disabled]="userRegisterForm.invalid" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,174 @@
+<section class="h-100 h-custom" style="background-color: #8fc4b7;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-8 col-xl-6">
+          <div class="card rounded-3">
+            <img src="https://media.istockphoto.com/id/873418908/photo/doctor-in-hospital-background-with-copy-space.jpg?s=612x612&w=0&k=20&c=LU2QQWcTtswXWQuQacqLrDGW1S_8thqkmahlvPxhIB0="
+              class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+              alt="Sample photo">
+            <div class="card-body p-4 p-md-5">
+            <h3 class="mb-5 text-uppercase">HCO Application</h3>
+  
+              <form [formGroup]="registerForm" class="px-md-2" (ngSubmit) = "addOng()">
+  
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="oName">Organization Name</label>
+                    <input type="text" formControlName="ongName" class="form-control" id="oName"  placeholder= "Enter Organization Name" name="oName" [(ngModel)] = "addOngRequest.oName">
+                    <div class="form-text text-danger" *ngIf="OName.errors?.['required'] && OName.touched">
+                      Required
+                    </div>
+                    <div class="form-text text-danger" *ngIf="OName.errors?.['pattern'] && OName.touched">
+                      Invalid
+                    </div>
+                  </div>
+  
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="address">Address</label> 
+                    <input class="form-control" formControlName="add" type="text" id="address"  placeholder= "Enter Address" name="address" [(ngModel)] = "addOngRequest.address">
+                    
+                    <div class="form-text text-danger" *ngIf="Address.errors?.['required'] && Address.touched">
+                      Required
+                    </div> 
+                  </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <label class="form-label" for="country">Country</label><br>
+                            <select class="select" (change)="changeCountry($event)" formControlName="coun" id="country" name="country" [(ngModel)] = "addOngRequest.country">
+                                <option>--Choose Country--</option>
+                                <option *ngFor="let country of Countries">{{country.name}}</option>
+                            </select>
+                            <div class="form-text text-danger" *ngIf="Country.errors?.['required'] && (Country.touched || Country.dirty)">
+                              Required
+                            </div> 
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                          <label class="form-label" for="state">State</label><br>
+                            <select class="select" formControlName="sta" id ="state" name="state" [(ngModel)] = "addOngRequest.state">
+                                <option>--Choose State--</option>
+                                <option *ngFor="let state of states">{{state}}</option>
+                            </select>
+                            <div class="form-text text-danger" *ngIf="Country.errors?.['required'] && (Country.touched || Country.dirty)">
+                              Required
+                            </div> 
+                        </div>
+                      </div>
+                      <div class="mb-3 mt-3">
+                        <label class="form-label" for="city">City</label>
+                        <input type="text" class="form-control" id="city" formControlName="cty" placeholder= "City" pattern="[a-zA-Z\s]+" name="city" [(ngModel)] = "addOngRequest.city">
+                        <div class="form-text text-danger" *ngIf="City.errors?.['required'] && City.touched">
+                          Required
+                        </div>
+                      </div>
+  
+                <div class="mb-3 mt-3">
+                  <label class = "form-label" for="zipcode">Zip Code</label>
+                  <input class = "form-control" type="text" formControlName="zcode" id="zipcode"  placeholder= "Zip code" name="zipcode" [(ngModel)] = "addOngRequest.zipcode">
+                  <div class="form-text text-danger" *ngIf="ZipCode.errors?.['required'] && ZipCode.touched">
+                    Required
+                  </div> 
+                  <div class="form-text text-danger" *ngIf="ZipCode.errors?.['pattern'] && (ZipCode.touched || ZipCode.dirty)">
+                    Invalid Number
+                </div>
+                <div class="form-text text-danger" *ngIf="ZipCode.errors?.['minlength'] && (ZipCode.touched || ZipCode.dirty)">
+                  Zip code should have only numbers and 6 digits
+                </div> 
+                <div class="form-text text-danger" *ngIf="ZipCode.errors?.['maxlength'] && (ZipCode.touched || ZipCode.dirty)">
+                  Zip code should have only numbers and 6 digits
+                </div>
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="email">Email</label>
+                  <input class="form-control" type="text" formControlName="em" id="email" placeholder= "Email Id" name="email" [(ngModel)] = "addOngRequest.email">
+                  <div class="form-text text-danger" *ngIf="Email.errors?.['required'] && Email.touched">
+                    Required
+                  </div> 
+                  <div class="form-text text-danger" *ngIf="Email.errors?.['email'] && (Email.touched || Email.dirty)">
+                    Email id should contain @ and. symbols.
+                  </div>
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="website">Website</label>
+                  <input class="form-control" type="text" formControlName="web" id="website"  placeholder= "Website" name="website" [(ngModel)] = "addOngRequest.website">
+                  <div class="form-text text-danger" *ngIf="Website.errors?.['required'] && Website.touched">
+                    Required
+                  </div> 
+                  <div class="form-text text-danger" *ngIf="Website.errors?.['pattern']">
+                    Website should have in the format of www.test.com
+                  </div>
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label">Primary Contact Person</label>
+                  <input class="form-control" type="text" formControlName="pri" id="pricontact" placeholder= "Primary Contact Person" name="priContact" [(ngModel)] = "addOngRequest.priContact">
+                  <div class="form-text text-danger" *ngIf="PriContact.errors?.['required'] && PriContact.touched">
+                    Required
+                  </div>
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="pricontactmob">Primary Contact Person Mobile</label>
+                  <input class="form-control" type="text" formControlName="primob" id="pricontactmob" placeholder= "Primary Contact Person Mobile" name="priontactmob" [(ngModel)] = "addOngRequest.priContactmob">
+                  <div class="form-text text-danger" *ngIf="PriContactMob.errors?.['required'] && PriContactMob.touched">
+                    Required
+                  </div> 
+                  <div class="form-text text-danger" *ngIf="PriContactMob.errors?.['pattern'] && (PriContactMob.touched || PriContactMob.dirty)">
+                    Invalid Number
+                </div>
+                <div class="form-text text-danger" *ngIf="PriContactMob.errors?.['minlength'] && (PriContactMob.touched || PriContactMob.dirty)">
+                  Primary Contact Person Mobile should have only numbers and 10 digits
+                </div> 
+                <div class="form-text text-danger" *ngIf="PriContactMob.errors?.['maxlength'] && (PriContactMob.touched || PriContactMob.dirty)">
+                  Primary Contact Person Mobile should have only numbers and 10 digits
+                </div>
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="seccontact">Secondar Contact Person</label>
+                  <input class="form-control" type="text" formControlName="sec" id="seccontact" placeholder= "Secondar Contact Person" name="secontact" [(ngModel)] = "addOngRequest.secContact">
+                  <div class="form-text text-danger" *ngIf="SecContact.errors?.['required'] && SecContact.touched">
+                    Required
+                  </div> 
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="seccontactmob">Secondar Contact Person Mobile</label>
+                  <input class="form-control" type="text" formControlName="secmob" id="seccontactmob" placeholder= "Secondar Contact Person Mobile" name="secContactmob" [(ngModel)] = "addOngRequest.secContactmob">
+                  <div class="form-text text-danger" *ngIf="SecContactMob.errors?.['required'] && SecContactMob.touched">
+                    Required
+                  </div>
+                  <div class="form-text text-danger" *ngIf="SecContactMob.errors?.['pattern'] && (SecContactMob.touched || SecContactMob.dirty)">
+                    Invalid Number
+                </div>
+                <div class="form-text text-danger" *ngIf="SecContactMob.errors?.['minlength'] && (SecContactMob.touched || SecContactMob.dirty)">
+                  Secondar Contact Person Mobile should have only numbers and 10 digits
+                </div> 
+                <div class="form-text text-danger" *ngIf="SecContactMob.errors?.['maxlength'] && (SecContactMob.touched || SecContactMob.dirty)">
+                  Secondar Contact Person Mobile should have only numbers and 10 digits
+                </div>
+                  
+                </div>
+                
+                <div class="mb-3 mt-3">
+                  <label class="form-label">Program To Be Accreditted</label>
+                  <input class="form-control" type="text" formControlName="prog" id="programtobeAccreditted" placeholder= "Program To Be Accreditted" name="programtobeAccreditted" [(ngModel)] = "addOngRequest.programtobeAccreditted">
+                  <div class="form-text text-danger" *ngIf="Programs.errors?.['required'] && Programs.touched">
+                    Required
+                  </div>
+                </div><br>
+            
+                <div class="d-flex justify-content-center">
+                  <button type="submit" [disabled]="registerForm.invalid" class="btn btn-success btn-block btn-lg text-body">Register</button>
+                </div>
+
+  
+              </form>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

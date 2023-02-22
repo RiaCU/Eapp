@@ -1,0 +1,76 @@
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\appsettings.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.exe
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.deps.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.runtimeconfig.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.pdb
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\DnsClient.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Snappier.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.csproj.AssemblyReference.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.AssemblyInfoInputs.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.AssemblyInfo.cs
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.csproj.CoreCompileInputs.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\scopedcss\bundle\Elec_app_api.styles.css
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.csproj.CopyComplete
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\refint\Elec_app_api.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.pdb
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.genruntimeconfig.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\case study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\ref\Elec_app_api.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\appsettings.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.exe
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.deps.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.runtimeconfig.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Elec_app_api.pdb
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\DnsClient.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Snappier.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.csproj.AssemblyReference.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.AssemblyInfoInputs.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.AssemblyInfo.cs
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.csproj.CoreCompileInputs.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\scopedcss\bundle\Elec_app_api.styles.css
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.csproj.CopyComplete
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\refint\Elec_app_api.dll
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.pdb
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\Elec_app_api.genruntimeconfig.cache
+C:\Users\2134257\OneDrive - Cognizant\Desktop\Electronic Application - FSE Case Study\Full_stack_API\Elec_app_api\Elec_app_api\obj\Debug\net6.0\ref\Elec_app_api.dll

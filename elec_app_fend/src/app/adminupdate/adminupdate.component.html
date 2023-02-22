@@ -1,0 +1,111 @@
+<section class="h-100 h-custom" style="background-color: #8fc4b7;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-8 col-xl-6">
+          <div class="card rounded-3">
+            <img src="https://media.istockphoto.com/id/873418908/photo/doctor-in-hospital-background-with-copy-space.jpg?s=612x612&w=0&k=20&c=LU2QQWcTtswXWQuQacqLrDGW1S_8thqkmahlvPxhIB0="
+              class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+              alt="Sample photo">
+            <div class="card-body p-4 p-md-5">
+            <h3 class="mb-5 text-uppercase">Update form</h3>
+  
+              <form #form ="ngForm" class="px-md-2" (ngSubmit) = "updateDetails()">
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="id">HCO_Id</label>
+                    <input type="text" class="form-control" id="id" name="id" [(ngModel)] = "updateOngRequest.id" readonly>
+                  </div>
+  
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="oName">Organization Name</label>
+                    <input type="text" class="form-control" id="oName" name="oName" [(ngModel)] = "updateOngRequest.oName" readonly>
+                  </div>
+  
+                <div class="mb-3 mt-3">
+                    <input class="form-control" type="text" id="address" name="address" [(ngModel)] = "updateOngRequest.address" readonly>
+                    <label class="form-label" for="address">Address</label>  
+                  </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <label class="form-label" for="country">Country</label>
+                          <input type="text" class="form-control" id="country" name="country" [(ngModel)] = "updateOngRequest.country" readonly>
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                          <label class="form-label" for="city">State</label>
+                          <input type="text" class="form-control" id="state" name="state" [(ngModel)] = "updateOngRequest.state" readonly>
+                        </div>
+                      </div>
+                      <div class="mb-3 mt-3">
+                        <label class="form-label" for="city">City</label>
+                        <input type="text" class="form-control" id="city" name="city" [(ngModel)] = "updateOngRequest.city" readonly>
+                      </div>
+  
+                <div class="mb-3 mt-3">
+                  <label class = "form-label" for="zipcode">Zip Code</label>
+                  <input class = "form-control" type="number" id="zipcode" name="zipcode" [(ngModel)] = "updateOngRequest.zipcode" readonly>
+                  
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="email">Email</label>
+                  <input class="form-control" type="email" id="email" name="email" [(ngModel)] = "updateOngRequest.email" readonly>
+                  
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="website">Website</label>
+                  <input class="form-control" type="text" id="website" name="website" [(ngModel)] = "updateOngRequest.website" readonly>
+                  
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label">Primary Contact Person</label>
+                  <input class="form-control" type="text" id="pricontact" name="priContact" [(ngModel)] = "updateOngRequest.priContact" readonly>
+                  
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="pricontactmob">Primary Contact Person Mobile</label>
+                  <input class="form-control" type="number" id="pricontactmob" name="priontactmob" [(ngModel)] = "updateOngRequest.priContactmob"readonly>
+                  
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="seccontact">Secondary Contact Person</label>
+                  <input class="form-control" type="text" id="seccontact" name="secontact" [(ngModel)] = "updateOngRequest.secContact" readonly>
+                  
+                </div>
+
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="seccontactmob">Secondary Contact Person Mobile</label>
+                  <input class="form-control" type="number" id="seccontactmob" name="secContactmob" [(ngModel)] = "updateOngRequest.secContactmob" readonly>
+                  
+                </div>
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="programtobeAccreditted">Program To Be Accreditted</label>
+                  <input class="form-control" type="text" id="programtobeAccreditted" name="programtobeAccreditted" [(ngModel)] = "updateOngRequest.programtobeAccreditted" readonly>
+                  
+                </div>
+                <div class="mb-3 mt-3">
+                  <label class="form-label" for="status">Status</label><br>
+                  <select class="select" name="status" id="status" [(ngModel)] = "updateOngRequest.status">
+                    <!-- <option value="submitted">{{updateOngRequest.status}}</option> -->
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <br>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" [disabled]="f" class="btn btn-success btn-block btn-lg text-body">Save</button>
+                  <button class="btn btn-light btn-block btn-lg text-body" (click)="close()">close</button>
+                </div>
+
+  
+              </form>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
